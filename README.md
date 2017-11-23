@@ -9,6 +9,7 @@ To use this AWS Lambda function, see the example below. You must give the follow
 * table - name of DynamoDB table to get data from
 * bucket - name of S3 bucket in which to place CSV
 * key - key that CSV file will have when placed in S3
+
 ```
 {
     "table": "fndy_object_type_dev",
